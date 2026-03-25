@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #00897B;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 30px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+.flash {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.flash.success { background-color: #a5d6a7; }
+.flash.danger { background-color: #ef9a9a; }
+.flash.info { background-color: #81d4fa; }

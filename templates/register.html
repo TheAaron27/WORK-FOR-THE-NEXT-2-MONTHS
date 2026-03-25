@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h2> Register</h2>
+<p> If you already have an account:</p>
+<a href="{{ url_for('login') }}">Login</a>
+<p> </p>
+<p> If you want to register for a partner account</p>
+<a href="{{ url_for('partner_register') }}">Partner register</a>
+<p> </p>
+<form method="POST">
+    <label>Username:</label><br>
+    <input type="text" name="username" required><br>
+    <label>Password:</label><br>
+    <input type="text" name="password" required><br>
+    <button type="submit">Create Account</button>
+</form>
+{% endblock %}
